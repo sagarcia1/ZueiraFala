@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82CAE992196DCE20009D4DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE991196DCE20009D4DFD /* Foundation.framework */; };
+		82CAE994196DCE20009D4DFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE993196DCE20009D4DFD /* CoreGraphics.framework */; };
+		82CAE996196DCE20009D4DFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE995196DCE20009D4DFD /* UIKit.framework */; };
+		82CAE99C196DCE20009D4DFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82CAE99A196DCE20009D4DFD /* InfoPlist.strings */; };
+		82CAE99E196DCE20009D4DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE99D196DCE20009D4DFD /* main.m */; };
+		82CAE9A2196DCE20009D4DFD /* ALIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE9A1196DCE20009D4DFD /* ALIAppDelegate.m */; };
+		82CAE9A5196DCE20009D4DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CAE9A3196DCE20009D4DFD /* Main.storyboard */; };
+		82CAE9A8196DCE20009D4DFD /* ALIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE9A7196DCE20009D4DFD /* ALIViewController.m */; };
+		82CAE9AA196DCE20009D4DFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CAE9A9196DCE20009D4DFD /* Images.xcassets */; };
+		82CAE9B1196DCE20009D4DFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE9B0196DCE20009D4DFD /* XCTest.framework */; };
+		82CAE9B2196DCE20009D4DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE991196DCE20009D4DFD /* Foundation.framework */; };
+		82CAE9B3196DCE20009D4DFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CAE995196DCE20009D4DFD /* UIKit.framework */; };
+		82CAE9BB196DCE20009D4DFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82CAE9B9196DCE20009D4DFD /* InfoPlist.strings */; };
+		82CAE9BD196DCE20009D4DFD /* ZueiraFalaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE9BC196DCE20009D4DFD /* ZueiraFalaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82CAE9B4196DCE20009D4DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CAE986196DCE1F009D4DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CAE98D196DCE20009D4DFD;
+			remoteInfo = ZueiraFala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82CAE98E196DCE20009D4DFD /* ZueiraFala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZueiraFala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CAE991196DCE20009D4DFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82CAE993196DCE20009D4DFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82CAE995196DCE20009D4DFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82CAE999196DCE20009D4DFD /* ZueiraFala-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZueiraFala-Info.plist"; sourceTree = "<group>"; };
+		82CAE99B196DCE20009D4DFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82CAE99D196DCE20009D4DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82CAE99F196DCE20009D4DFD /* ZueiraFala-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZueiraFala-Prefix.pch"; sourceTree = "<group>"; };
+		82CAE9A0196DCE20009D4DFD /* ALIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIAppDelegate.h; sourceTree = "<group>"; };
+		82CAE9A1196DCE20009D4DFD /* ALIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIAppDelegate.m; sourceTree = "<group>"; };
+		82CAE9A4196DCE20009D4DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82CAE9A6196DCE20009D4DFD /* ALIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALIViewController.h; sourceTree = "<group>"; };
+		82CAE9A7196DCE20009D4DFD /* ALIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALIViewController.m; sourceTree = "<group>"; };
+		82CAE9A9196DCE20009D4DFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82CAE9AF196DCE20009D4DFD /* ZueiraFalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZueiraFalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CAE9B0196DCE20009D4DFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82CAE9B8196DCE20009D4DFD /* ZueiraFalaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZueiraFalaTests-Info.plist"; sourceTree = "<group>"; };
+		82CAE9BA196DCE20009D4DFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82CAE9BC196DCE20009D4DFD /* ZueiraFalaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZueiraFalaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82CAE98B196DCE20009D4DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CAE994196DCE20009D4DFD /* CoreGraphics.framework in Frameworks */,
+				82CAE996196DCE20009D4DFD /* UIKit.framework in Frameworks */,
+				82CAE992196DCE20009D4DFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CAE9AC196DCE20009D4DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CAE9B1196DCE20009D4DFD /* XCTest.framework in Frameworks */,
+				82CAE9B3196DCE20009D4DFD /* UIKit.framework in Frameworks */,
+				82CAE9B2196DCE20009D4DFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82CAE985196DCE1F009D4DFD = {
+			isa = PBXGroup;
+			children = (
+				82CAE997196DCE20009D4DFD /* ZueiraFala */,
+				82CAE9B6196DCE20009D4DFD /* ZueiraFalaTests */,
+				82CAE990196DCE20009D4DFD /* Frameworks */,
+				82CAE98F196DCE20009D4DFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82CAE98F196DCE20009D4DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82CAE98E196DCE20009D4DFD /* ZueiraFala.app */,
+				82CAE9AF196DCE20009D4DFD /* ZueiraFalaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CAE990196DCE20009D4DFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CAE991196DCE20009D4DFD /* Foundation.framework */,
+				82CAE993196DCE20009D4DFD /* CoreGraphics.framework */,
+				82CAE995196DCE20009D4DFD /* UIKit.framework */,
+				82CAE9B0196DCE20009D4DFD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82CAE997196DCE20009D4DFD /* ZueiraFala */ = {
+			isa = PBXGroup;
+			children = (
+				82CAE9A0196DCE20009D4DFD /* ALIAppDelegate.h */,
+				82CAE9A1196DCE20009D4DFD /* ALIAppDelegate.m */,
+				82CAE9A3196DCE20009D4DFD /* Main.storyboard */,
+				82CAE9A6196DCE20009D4DFD /* ALIViewController.h */,
+				82CAE9A7196DCE20009D4DFD /* ALIViewController.m */,
+				82CAE9A9196DCE20009D4DFD /* Images.xcassets */,
+				82CAE998196DCE20009D4DFD /* Supporting Files */,
+			);
+			path = ZueiraFala;
+			sourceTree = "<group>";
+		};
+		82CAE998196DCE20009D4DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CAE999196DCE20009D4DFD /* ZueiraFala-Info.plist */,
+				82CAE99A196DCE20009D4DFD /* InfoPlist.strings */,
+				82CAE99D196DCE20009D4DFD /* main.m */,
+				82CAE99F196DCE20009D4DFD /* ZueiraFala-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82CAE9B6196DCE20009D4DFD /* ZueiraFalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				82CAE9BC196DCE20009D4DFD /* ZueiraFalaTests.m */,
+				82CAE9B7196DCE20009D4DFD /* Supporting Files */,
+			);
+			path = ZueiraFalaTests;
+			sourceTree = "<group>";
+		};
+		82CAE9B7196DCE20009D4DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CAE9B8196DCE20009D4DFD /* ZueiraFalaTests-Info.plist */,
+				82CAE9B9196DCE20009D4DFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82CAE98D196DCE20009D4DFD /* ZueiraFala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CAE9C0196DCE20009D4DFD /* Build configuration list for PBXNativeTarget "ZueiraFala" */;
+			buildPhases = (
+				82CAE98A196DCE20009D4DFD /* Sources */,
+				82CAE98B196DCE20009D4DFD /* Frameworks */,
+				82CAE98C196DCE20009D4DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZueiraFala;
+			productName = ZueiraFala;
+			productReference = 82CAE98E196DCE20009D4DFD /* ZueiraFala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82CAE9AE196DCE20009D4DFD /* ZueiraFalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CAE9C3196DCE20009D4DFD /* Build configuration list for PBXNativeTarget "ZueiraFalaTests" */;
+			buildPhases = (
+				82CAE9AB196DCE20009D4DFD /* Sources */,
+				82CAE9AC196DCE20009D4DFD /* Frameworks */,
+				82CAE9AD196DCE20009D4DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CAE9B5196DCE20009D4DFD /* PBXTargetDependency */,
+			);
+			name = ZueiraFalaTests;
+			productName = ZueiraFalaTests;
+			productReference = 82CAE9AF196DCE20009D4DFD /* ZueiraFalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82CAE986196DCE1F009D4DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.bit4All.comqueroupa;
+				TargetAttributes = {
+					82CAE9AE196DCE20009D4DFD = {
+						TestTargetID = 82CAE98D196DCE20009D4DFD;
+					};
+				};
+			};
+			buildConfigurationList = 82CAE989196DCE1F009D4DFD /* Build configuration list for PBXProject "ZueiraFala" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82CAE985196DCE1F009D4DFD;
+			productRefGroup = 82CAE98F196DCE20009D4DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82CAE98D196DCE20009D4DFD /* ZueiraFala */,
+				82CAE9AE196DCE20009D4DFD /* ZueiraFalaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82CAE98C196DCE20009D4DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CAE9AA196DCE20009D4DFD /* Images.xcassets in Resources */,
+				82CAE99C196DCE20009D4DFD /* InfoPlist.strings in Resources */,
+				82CAE9A5196DCE20009D4DFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CAE9AD196DCE20009D4DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CAE9BB196DCE20009D4DFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82CAE98A196DCE20009D4DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CAE9A8196DCE20009D4DFD /* ALIViewController.m in Sources */,
+				82CAE99E196DCE20009D4DFD /* main.m in Sources */,
+				82CAE9A2196DCE20009D4DFD /* ALIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CAE9AB196DCE20009D4DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CAE9BD196DCE20009D4DFD /* ZueiraFalaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82CAE9B5196DCE20009D4DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CAE98D196DCE20009D4DFD /* ZueiraFala */;
+			targetProxy = 82CAE9B4196DCE20009D4DFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82CAE99A196DCE20009D4DFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CAE99B196DCE20009D4DFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82CAE9A3196DCE20009D4DFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CAE9A4196DCE20009D4DFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82CAE9B9196DCE20009D4DFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CAE9BA196DCE20009D4DFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82CAE9BE196DCE20009D4DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82CAE9BF196DCE20009D4DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82CAE9C1196DCE20009D4DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZueiraFala/ZueiraFala-Prefix.pch";
+				INFOPLIST_FILE = "ZueiraFala/ZueiraFala-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82CAE9C2196DCE20009D4DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZueiraFala/ZueiraFala-Prefix.pch";
+				INFOPLIST_FILE = "ZueiraFala/ZueiraFala-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82CAE9C4196DCE20009D4DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZueiraFala.app/ZueiraFala";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZueiraFala/ZueiraFala-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZueiraFalaTests/ZueiraFalaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82CAE9C5196DCE20009D4DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZueiraFala.app/ZueiraFala";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZueiraFala/ZueiraFala-Prefix.pch";
+				INFOPLIST_FILE = "ZueiraFalaTests/ZueiraFalaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82CAE989196DCE1F009D4DFD /* Build configuration list for PBXProject "ZueiraFala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CAE9BE196DCE20009D4DFD /* Debug */,
+				82CAE9BF196DCE20009D4DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CAE9C0196DCE20009D4DFD /* Build configuration list for PBXNativeTarget "ZueiraFala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CAE9C1196DCE20009D4DFD /* Debug */,
+				82CAE9C2196DCE20009D4DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82CAE9C3196DCE20009D4DFD /* Build configuration list for PBXNativeTarget "ZueiraFalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CAE9C4196DCE20009D4DFD /* Debug */,
+				82CAE9C5196DCE20009D4DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82CAE986196DCE1F009D4DFD /* Project object */;
+}
