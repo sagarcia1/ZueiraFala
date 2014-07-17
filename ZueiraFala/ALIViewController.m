@@ -7,6 +7,7 @@
 //
 
 #import "ALIViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ALIViewController ()
 
@@ -18,12 +19,23 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    self.syntethizer = [[AVSpeechSynthesizer alloc] init];
+    self.syntethizer.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
+- (IBAction)btPlay:(UIButton *)sender {
+    
+
+    AVSpeechUtterance *utterance = [[AVSpeechUtterance alloc]initWithString:self.textView.text];
+    utterance.rate = AVSpeechUtteranceMinimumSpeechRate;
+
+    [self.syntethizer speakUtterance:utterance];
+}
 @end
